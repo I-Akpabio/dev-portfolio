@@ -9,7 +9,12 @@ function MainApp() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch(endpoints.routes, {
+    let URL = '';
+    if (process.env.NODE_ENV === 'production') {
+      URL = 'https://i-akpabio.github.io/';
+    }
+
+    fetch(URL + endpoints.routes, {
       method: 'GET',
     })
       .then((res) => res.json())

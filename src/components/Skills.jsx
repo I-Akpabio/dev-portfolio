@@ -33,7 +33,12 @@ function Skills(props) {
   );
 
   useEffect(() => {
-    fetch(endpoints.skills, {
+    let URL = '';
+    if (process.env.NODE_ENV === 'production') {
+      URL = 'https://i-akpabio.github.io/dev-portfolio/';
+    }
+
+    fetch(URL + endpoints.skills, {
       method: 'GET',
     })
       .then((res) => res.json())

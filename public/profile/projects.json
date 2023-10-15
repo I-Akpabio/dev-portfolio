@@ -1,14 +1,36 @@
 {
     "projects" : [
         {
-            "image" : "images/projects/checklos-homepagw.png",
+            "image" : "dev-portfolio/images/projects/checklos-homepagw.png",
             "title": "Checklos Homepage",
             "bodyText": "- Homepage for the checklos\n Checklos is a food delivery app for food items. \n - The Site was built with ReactJs and Gatsby for speed of access",
             "links": [
                 
                 {
                     "text": "Live",
-                    "href": "https://checklos."
+                    "href": "https://checklos.com"
+                }
+            ],
+            "tags" : [
+                "React",
+                "JavaScript",
+                "GaysbyJs"
+            ]
+        },
+
+        {
+            "image" : "dev-portfolio/images/projects/formplus.png",
+            "title": "React Search and Sort App",
+            "bodyText": "- A demo react app for listing 2500 book records. \n-  The app sorts the books in ascending and descending order. \n - The app also filters the books in defined categories",
+            "links": [
+                
+                {
+                    "text": "Live",
+                    "href": "https://i-akpabio.github.io/formplus-app/"
+                },
+                {
+                    "text": "Github",
+                    "href": "https://github.com/I-Akpabio/formplus-app"
                 }
             ],
             "tags" : [
@@ -16,5 +38,6 @@
                 "JavaScript"
             ]
         }
+        
     ]
 }

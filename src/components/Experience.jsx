@@ -36,7 +36,12 @@ function Experience(props) {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch(endpoints.experiences, {
+    let URL = '';
+    if (process.env.NODE_ENV === 'production') {
+      URL = 'https://i-akpabio.github.io/dev-portfolio/';
+    }
+
+    fetch(URL + endpoints.experiences, {
       method: 'GET',
     })
       .then((res) => res.json())
