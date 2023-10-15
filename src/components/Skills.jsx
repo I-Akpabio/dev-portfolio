@@ -17,6 +17,9 @@ const styles = {
   introTextContainer: {
     whiteSpace: 'pre-wrap',
   },
+  margin: {
+    marginTop: '10px',
+  },
 };
 
 function Skills(props) {
@@ -40,7 +43,7 @@ function Skills(props) {
 
   return (
     <>
-      <Header title={header} />
+      <Header style={styles.margin} title={header} />
       {data ? (
         <Fade>
           <div className="section-content-container">
