@@ -1,0 +1,20 @@
+{
+    "projects" : [
+        {
+            "image" : "images/projects/checklos-homepagw.png",
+            "title": "Checklos Homepage",
+            "bodyText": "- Homepage for the checklos\n Checklos is a food delivery app for food items. \n - The Site was built with ReactJs and Gatsby for speed of access",
+            "links": [
+                
+                {
+                    "text": "Live",
+                    "href": "https://checklos."
+                }
+            ],
+            "tags" : [
+                "React",
+                "JavaScript"
+            ]
+        }
+    ]
+}

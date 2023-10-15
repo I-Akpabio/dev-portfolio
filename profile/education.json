@@ -1,0 +1,28 @@
+{
+    "education":[
+        {
+            "title": "Aug 2021 - Jul 2023",
+            "cardTitle": "M.S.c, Computer Science",
+            "cardSubtitle":"Covenant University",
+            "cardDetailedText": "",
+            "icon" : {
+                "src": "images/education/lorem-ipsum.png"
+            }
+        },
+        {
+            "title": "Aug 2014 - Jul 2019",
+            "cardTitle": "B.Sc, Management Information System",
+            "cardSubtitle":"Covenant University",
+            "cardDetailedText": "",
+            "icon" : {
+                "src": "images/education/lorem-ipsum.png"
+            }
+        },
+        {
+            "title": "Apr 2009 - 2014",
+            "cardTitle": "High School",
+            "cardSubtitle":"Whitesands School",
+            "cardDetailedText": "Marks - 95%"
+        }
+    ]
+}

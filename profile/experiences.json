@@ -1,0 +1,36 @@
+{
+    "experiences": [
+        {
+            "title": "Frontend Developer, React",
+            "subtitle": "Checklos Ltd",
+            "workType": "Full-time",
+            "workDescription": [
+                "Develop and manage react site",
+                "Work with the backend team to integrate backend api.",
+                "Convert Figma design to webpages with css"
+            ],
+            "dateText": "06/2022 – 05/2023"
+        },
+        {
+            "title": "Backend/Frontend developer",
+            "subtitle": "Techcellent360 Global Limited ",
+            "workType": "Full Time Role",
+            "workDescription": [
+                "Work on NodeJS and ReactJS codebases",
+                "Build functionalities on the backend for new features",
+                "Integrate backend functionalities with frontend in react"
+            ],
+            "dateText": "02/2021 – 05/2021"
+        },
+        {
+            "title": "Backend Developer Intern at nairabox",
+            "subtitle": "Jorg Technologies",
+            "workType": "Internship",
+            "workDescription": [
+                "Developed the official apps for the startup using php backend lamguage",
+                "Convert designs to webpages with CSS"
+            ],
+            "dateText": "01/2017 – 06/2017"
+        }
+    ]
+}
