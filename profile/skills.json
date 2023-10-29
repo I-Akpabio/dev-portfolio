@@ -6,23 +6,23 @@
             "items" : [
      
                 {
-                    "icon": "dev-portfolio/images/skills/java.png",
+                    "icon": "images/skills/java.png",
                     "title": "Java"
                 },
                 {
-                    "icon": "dev-portfolio/images/skills/php.png",
+                    "icon": "images/skills/php.png",
                     "title": "PHP"
                 },
                 {
-                    "icon": "dev-portfolio/images/skills/js.png",
+                    "icon": "images/skills/js.png",
                     "title": "JavaScript"
                 },
                 {
-                    "icon": "dev-portfolio/images/skills/python.png",
+                    "icon": "images/skills/python.png",
                     "title": "Python"
                 },
                 {
-                    "icon": "dev-portfolio/images/skills/mysql.png",
+                    "icon": "images/skills/mysql.png",
                     "title": "MySQL"
                 }
         ]},
@@ -31,11 +31,11 @@
             "items" : [
                
                 {
-                    "icon": "dev-portfolio/images/skills/react.png",
+                    "icon": "images/skills/react.png",
                     "title": "React"
                 },
                 {
-                    "icon": "dev-portfolio/images/skills/nodejs.png",
+                    "icon": "images/skills/nodejs.png",
                     "title": "Nodejs"
                 }
             ]
@@ -45,7 +45,7 @@
             "items": [
               
                 {
-                    "icon": "dev-portfolio/images/skills/git.png",
+                    "icon": "images/skills/git.png",
                     "title": "Git"
                 }
                
