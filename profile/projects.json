@@ -37,6 +37,30 @@
                 "React",
                 "JavaScript"
             ]
+        },
+
+        {
+            "image" : "images/projects/wealth-shack.PNG",
+            "title": "Investment Landing Page",
+            "bodyText": "- A Investment style landing page \n-  A section of the page has a app that displays sample investment portfolios to users. ",
+            "links": [
+                
+                {
+                    "text": "Live",
+                    "href": "https://wealth-shack.vercel.app/"
+                },
+                {
+                    "text": "Github",
+                    "href": "https://github.com/I-Akpabio/wealth-shack"
+                }
+            ],
+            "tags" : [
+                "React",
+                "JavaScript",
+                "NextJs",
+                "Node",
+                "Mongodb"
+            ]
         }
         
     ]
