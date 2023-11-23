@@ -35,12 +35,7 @@ function About(props) {
   );
 
   useEffect(() => {
-    let URL = '';
-    if (process.env.NODE_ENV === 'production') {
-      URL = 'https://i-akpabio.github.io/dev-portfolio/';
-    }
-
-    fetch(URL + endpoints.about, {
+    fetch(endpoints.about, {
       method: 'GET',
     })
       .then((res) => res.json())

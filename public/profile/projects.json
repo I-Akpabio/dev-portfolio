@@ -1,7 +1,7 @@
 {
     "projects" : [
         {
-            "image" : "dev-portfolio/images/projects/checklos-homepagw.png",
+            "image" : "images/projects/checklos-homepagw.PNG",
             "title": "Checklos Homepage",
             "bodyText": "- Homepage for the checklos\n Checklos is a food delivery app for food items. \n - The Site was built with ReactJs and Gatsby for speed of access",
             "links": [
@@ -19,7 +19,7 @@
         },
 
         {
-            "image" : "dev-portfolio/images/projects/formplus.png",
+            "image" : "images/projects/formplus.PNG",
             "title": "React Search and Sort App",
             "bodyText": "- A demo react app for listing 2500 book records. \n-  The app sorts the books in ascending and descending order. \n - The app also filters the books in defined categories",
             "links": [
@@ -36,6 +36,30 @@
             "tags" : [
                 "React",
                 "JavaScript"
+            ]
+        },
+
+        {
+            "image" : "images/projects/wealth-shack.PNG",
+            "title": "Investment Landing Page",
+            "bodyText": "- A Investment style landing page \n-  A section of the page has a app that displays sample investment portfolios to users. ",
+            "links": [
+                
+                {
+                    "text": "Live",
+                    "href": "https://wealth-shack.vercel.app/"
+                },
+                {
+                    "text": "Github",
+                    "href": "https://github.com/I-Akpabio/wealth-shack"
+                }
+            ],
+            "tags" : [
+                "React",
+                "JavaScript",
+                "NextJs",
+                "Node",
+                "Mongodb"
             ]
         }
         

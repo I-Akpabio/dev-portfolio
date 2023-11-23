@@ -42,12 +42,7 @@ const NavBar = () => {
   const [expanded, setExpanded] = useState(false);
 
   useEffect(() => {
-    let URL = '';
-    if (process.env.NODE_ENV === 'production') {
-      URL = 'https://i-akpabio.github.io/';
-    }
-
-    fetch(URL + endpoints.navbar, {
+    fetch(endpoints.navbar, {
       method: 'GET',
     })
       .then((res) => res.json())

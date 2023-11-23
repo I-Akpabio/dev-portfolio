@@ -17,12 +17,7 @@ function Education(props) {
   const [mode, setMode] = useState('VERTICAL_ALTERNATING');
 
   useEffect(() => {
-    let URL = '';
-    if (process.env.NODE_ENV === 'production') {
-      URL = 'https://i-akpabio.github.io/dev-portfolio/';
-    }
-
-    fetch(URL + endpoints.education, {
+    fetch(endpoints.education, {
       method: 'GET',
     })
       .then((res) => res.json())

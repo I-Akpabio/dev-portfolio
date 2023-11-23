@@ -24,12 +24,7 @@ const Projects = (props) => {
   const [showMore, setShowMore] = useState(false);
 
   useEffect(() => {
-    let URL = '';
-    if (process.env.NODE_ENV === 'production') {
-      URL = 'https://i-akpabio.github.io/dev-portfolio/';
-    }
-
-    fetch(URL + endpoints.projects, {
+    fetch(endpoints.projects, {
       method: 'GET',
     })
       .then((res) => res.json())

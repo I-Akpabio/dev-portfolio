@@ -9,12 +9,7 @@ function MainApp() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    let URL = '';
-    if (process.env.NODE_ENV === 'production') {
-      URL = 'https://i-akpabio.github.io/';
-    }
-
-    fetch(URL + endpoints.routes, {
+    fetch(endpoints.routes, {
       method: 'GET',
     })
       .then((res) => res.json())
@@ -24,11 +19,12 @@ function MainApp() {
 
   return (
     <div className="MainApp">
+
       <NavBarWithRouter />
       <main className="main">
         <Switch>
           <Suspense fallback={<FallbackSpinner />}>
-            <Route exact path="/" component={Home} />
+            <Route exact path="/dev-portfolio" component={Home} />
             {data
               && data.sections.map((route) => {
                 const SectionComponent = React.lazy(() => import('./components/' + route.component));
