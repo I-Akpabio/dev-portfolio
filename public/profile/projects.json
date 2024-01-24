@@ -1,6 +1,29 @@
 {
     "projects" : [
         {
+            "image" : "images/projects/Shopco.jpeg",
+            "title": "An ecommerce app demo",
+            "bodyText": "- A demo nextjs app for an ecommerce app with a landing page   \n-  The app lists demo products from a database and adds a cart functionality",
+            "links": [
+    
+                {
+                    "text": "Live",
+                    "href": "https://main--fluffy-panda-4f9777.netlify.app/"
+                },
+                {
+                    "text": "Github",
+                    "href": "https://github.com/I-Akpabio/ecommerce-app"
+                }
+            ],
+            "tags" : [
+                "React",
+                "NextJs",
+                "Mongodb",
+                "Node",
+                "JavaScript"
+            ]
+        },
+        {
             "image" : "images/projects/checklos-homepagw.PNG",
             "title": "Checklos Homepage",
             "bodyText": "- Homepage for the checklos\n Checklos is a food delivery app for food items. \n - The Site was built with ReactJs and Gatsby for speed of access",
@@ -17,28 +40,6 @@
                 "GaysbyJs"
             ]
         },
-
-        {
-            "image" : "images/projects/formplus.PNG",
-            "title": "React Search and Sort App",
-            "bodyText": "- A demo react app for listing 2500 book records. \n-  The app sorts the books in ascending and descending order. \n - The app also filters the books in defined categories",
-            "links": [
-                
-                {
-                    "text": "Live",
-                    "href": "https://i-akpabio.github.io/formplus-app/"
-                },
-                {
-                    "text": "Github",
-                    "href": "https://github.com/I-Akpabio/formplus-app"
-                }
-            ],
-            "tags" : [
-                "React",
-                "JavaScript"
-            ]
-        },
-
         {
             "image" : "images/projects/wealth-shack.PNG",
             "title": "Investment Landing Page",
@@ -61,7 +62,31 @@
                 "Node",
                 "Mongodb"
             ]
+        },
+
+
+        {
+            "image" : "images/projects/formplus.PNG",
+            "title": "React Search and Sort App",
+            "bodyText": "- A demo react app for listing 2500 book records. \n-  The app sorts the books in ascending and descending order. \n - The app also filters the books in defined categories",
+            "links": [
+                
+                {
+                    "text": "Live",
+                    "href": "https://i-akpabio.github.io/formplus-app/"
+                },
+                {
+                    "text": "Github",
+                    "href": "https://github.com/I-Akpabio/formplus-app"
+                }
+            ],
+            "tags" : [
+                "React",
+                "JavaScript"
+            ]
         }
+
+       
         
     ]
 }
