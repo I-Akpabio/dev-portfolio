@@ -41,6 +41,27 @@
             ]
         },
         {
+            "image" : "images/projects/YourBank.jpeg",
+            "title": "Bank Site Template",
+            "bodyText": "- A bank website template containing an about, career and security page \n ",
+            "links": [
+                
+                {
+                    "text": "Live",
+                    "href": "https://bank-site-design.vercel.app/"
+                },
+                {
+                    "text": "Github",
+                    "href": "https://github.com/I-Akpabio/bank-landing-template"
+                }
+            ],
+            "tags" : [
+                "Vue",
+                "JavaScript",
+                "Tailwind"
+            ]
+        },
+        {
             "image" : "images/projects/wealth-shack.PNG",
             "title": "Investment Landing Page",
             "bodyText": "- A Investment style landing page \n-  A section of the page has a app that displays sample investment portfolios to users. ",
